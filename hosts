@@ -1,0 +1,13 @@
+[pi]
+xx.xx.xx.xx
+
+[oracle]
+xx.xx.xx.xx
+
+[pi:vars]
+ansible_user = pi
+ansible_password = xxxxxxx
+
+[oracle:vars]
+ansible_user = ubuntu
+ansible_ssh_private_key_file = ../xxxx/my-oci.key

@@ -1,0 +1,14 @@
+---
+- name: connect to raspberry pi
+  hosts: pi
+
+  tasks:
+  - name: create a me.txt file
+    command: touch me.txt
+
+- name: connect to oracle vm
+  hosts: oracle
+
+  tasks:
+  - name: create a me.txt file
+    command: touch me.txt
